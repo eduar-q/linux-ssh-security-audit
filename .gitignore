@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Informes generados
+reports/*
+!reports/.gitkeep
+
+# Entorno virtual
+.venv/
+
+# Configuración y caché de pytest
+.pytest_cache/
